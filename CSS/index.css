@@ -1,5 +1,5 @@
 header{
-    background-color:#cecece;
+    background-color:#646464;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
     display: flex;
@@ -14,12 +14,13 @@ nav{
 a {
     display: inline-flex;
     align-items: center;
-    color:#000;
+    color:rgb(255, 255, 255);
     font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
+    text-shadow: 2px 2px 0 #000;
 }
 /* o # funciona para pegar o 'ID' */
 #button{
@@ -46,6 +47,13 @@ a::before{
     border-radius: 50%;
 }
 
-img{
-    width: 5%;
+h1{
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px 0 #FFF;
+}
+h1::after{
+    content: "5";
+    color: #00ffbf;
+    text-shadow: 1px 1px 0 #FFF;
 }
