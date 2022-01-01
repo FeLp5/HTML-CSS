@@ -57,3 +57,28 @@ h1::after{
     color: #00ffbf;
     text-shadow: 1px 1px 0 #FFF;
 }
+
+
+.banner{
+    position: absolute;
+    display: inline-block;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px#000;
+}
+
+h2{
+    position: absolute;
+    left: 90px;
+    top: 42px;
+
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #72bdaa;
+    text-shadow: 5px 5px 0px #000;
+}
