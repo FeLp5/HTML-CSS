@@ -59,6 +59,16 @@ h1::after{
 }
 
 
+
+section{
+    width: 100%;
+
+    
+    background: url("/HTLM-CSS/imgs/foto_marco_normal.png");
+    background-repeat: no-repeat;
+}
+
+
 .banner{
     position: absolute;
     display: inline-block;
