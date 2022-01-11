@@ -6,7 +6,3 @@
     /* O display flex cria uma flex box que ajuda a alinhar os elementos  */
     justify-content: space-between;
 }
-
-.header .navigation{
-    text-align: right;
-}
