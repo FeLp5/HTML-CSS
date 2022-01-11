@@ -1,11 +1,4 @@
-h3{
-    position: absolute;
-    left: 40px;
-    top: 110px;
-    right: 47px;
-    bottom: 44px;
-
-
+.subtitle{
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 30px;
     line-height: 30px;

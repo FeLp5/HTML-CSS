@@ -1,11 +1,12 @@
-#box{
-    position: absolute;
+.box{
+    position: relative;
     display: inline-block;
-    width: 627px;
-    height: 184px;
-    left: 91px;
-    top: 196px;
     background-color: #3A4042;
-    box-shadow: 10px 10px 0px#000;
-    border-radius: 5px;
+    text-align: center;
+    padding: 42px 44px;
+    box-shadow: 10px 10px 0px #000;
+}
+
+.box .title{
+    margin-bottom: 28px;
 }

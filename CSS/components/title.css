@@ -1,14 +1,7 @@
-h2{
-    position: absolute;
-    left: 90px;
-    top: 42px;
-    right: 97px;
-    bottom: 102px;
-
+.title{
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 36px;
-
     color: #72bdaa;
     text-shadow: 5px 5px 0px #000;
 }
