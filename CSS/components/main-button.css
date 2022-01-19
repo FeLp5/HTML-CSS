@@ -1,5 +1,5 @@
 /* o # funciona para pegar o 'ID' */
-.button{
+.main-button{
     /* O display inline não deixa definir altura e largura */
     display: inline-block;
     background-color: #72bdaa;
@@ -14,7 +14,7 @@
     font-size: 20px;
 }
 
-.button:hover{
+.main-button:hover{
     transform: scale(1.08);
     background-color: #646464;
 }
