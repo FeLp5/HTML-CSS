@@ -9,7 +9,10 @@
     margin-bottom: 60px;
 }
 
-.main-section.-projects{
+.main-section.-bgBlack-Green{
     background-color: #203d36;
+}
+
+.main-section.-bdFirst{
     border-bottom: 10px solid #72bdaa;
 }
