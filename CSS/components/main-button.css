@@ -24,3 +24,11 @@
     text-decoration: none;
     color: unset;
 }
+
+.buntton.-left{
+    position: left;
+}
+
+.buntton.-right{
+    position: left;
+}
