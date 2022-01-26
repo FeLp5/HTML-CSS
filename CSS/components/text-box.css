@@ -1,0 +1,14 @@
+.text-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-box .text-content{
+    margin-top: 50px;
+    max-width: 1280px;
+    max-height: 312px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
