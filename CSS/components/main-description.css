@@ -1,0 +1,10 @@
+.main-description{
+    display: inline-block;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #FFF;
+    padding-left:  50px;
+    padding-right:  50px;
+}
+
