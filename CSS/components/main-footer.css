@@ -1,0 +1,15 @@
+.main-footer{
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #000;
+}
+
+
+.main-footer .icon{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
