@@ -30,6 +30,9 @@
         <link rel="stylesheet" href="CSS/components/main-carousel.css">
         <link rel="stylesheet" href="CSS/components/button-arrow.css">
         <link rel="stylesheet" href="CSS/components/node-card.css">
+        <link rel="stylesheet" href="CSS/components/main-form.css">
+        <link rel="stylesheet" href="CSS/components/input-box.css">
+        <link rel="stylesheet" href="CSS/components/main-footer.css">
 
         <title>Portfólio FeLp5</title>
     </head>
@@ -71,7 +74,7 @@
                     <img class="icon" src="imgs/icons/ico_html5.png" alt="Logo do HTML5 em pixel art">
                     <div class="right">
                         <h3 class="title">HTML5</h3>
-                            <progress class="progress-bar" max="100" value="30">30%</progress>
+                        <progress class="progress-bar" max="100" value="30">30%</progress>
                     </div>
                 </article>
     
@@ -79,7 +82,7 @@
                     <img class="icon" src="imgs/icons/ico_nodejs.png" alt="Logo do Node Js em pixel art">
                     <div class="right">
                         <h3 class="title">Node Js</h3>
-                            <progress class="progress-bar" max="100" value="0">0%</progress>
+                        <progress class="progress-bar" max="100" value="0">0%</progress>
                     </div>
                 </article>
     
@@ -88,7 +91,7 @@
                     <img class="icon" src="imgs/icons/ico_css3.png" alt="Logo do CSS3 em pixel art">
                     <div class="right">
                         <h3 class="title">CSS3</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
+                        <progress class="progress-bar" max="100" value="50">50%</progress>
                     </div>
                 </article>
     
@@ -97,7 +100,7 @@
                     <img class="icon" src="imgs/icons/ico_tdd.png" alt="Logo do TDD em pixel art">
                     <div class="right">
                         <h3 class="title">TDD</h3>
-                            <progress class="progress-bar" max="100" value="0">0%</progress>
+                        <progress class="progress-bar" max="100" value="0">0%</progress>
                     </div>
                 </article>
                             
@@ -170,7 +173,6 @@
             <h2 class="main-title -second">Sobre</h2>
             
 
-            
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Avançar</span></button>
 
@@ -242,6 +244,48 @@
             </div>
 
         </section>
+
+
+        <section class="main-section -form -bgblacksecond">
+            <h2 class="main-title -second">Contatos</h2>
+            
+            <form class="main-form" action="">
+                <div class="input-box">
+                    <label class="title-form" for="name">Nome</label>
+                    <input class="text-input"type="text" maxlength="100">
+                </div>
+
+                <div class="input-box">
+                    <label class="title-form" for="name">Email</label>
+                    <input class="text-input"type="Email" maxlength="100">
+                </div>
+
+                <div class="input-box">
+                    <label class="title-form" for="name">Mensagem</label>
+                    <input class="text-input -message" type="text" maxlength="1000">
+                </div>
+                
+                <div class="input-box">
+                    <input class="input-submit"type="submit">
+                </div>
+            </form>
+            
+
+        </section>
+
+        <footer class="main-footer">
+                <a href="" target="blank">
+                    <img class="icon" src="imgs/icons/icon-twitter.png" alt="Icone do Twitter">
+                </a>
+
+                <a href="" target="blank">
+                    <img class="icon" src="imgs/icons/icon-youtube.png" alt="Icone do Youtube">
+                </a>
+
+                <a href="" target="blank">
+                    <img class="icon" src="imgs/icons/icon-discord.png" alt="Icone do Discord">
+                </a>
+        </footer>
         
         <script src="JS/components/main-carousel.js"></script>
     </body>
