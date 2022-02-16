@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="CSS/components/button-arrow.css">
         <link rel="stylesheet" href="CSS/components/node-card.css">
         <link rel="stylesheet" href="CSS/components/main-form.css">
+        <link rel="stylesheet" href="CSS/components/main-label.css">
         <link rel="stylesheet" href="CSS/components/input-box.css">
         <link rel="stylesheet" href="CSS/components/main-footer.css">
 
@@ -251,23 +252,24 @@
             
             <form class="main-form" action="">
                 <div class="input-box">
-                    <label class="title-form" for="name">Nome</label>
-                    <input class="text-input"type="text" maxlength="100">
+                    <label class="main-label" for="name">Nome</label>
+                    <input id="name" class="text-input"type="text" maxlength="100">
                 </div>
 
                 <div class="input-box">
-                    <label class="title-form" for="name">Email</label>
-                    <input class="text-input"type="Email" maxlength="100">
+                    <label class="main-label" for="email">Email</label>
+                    <input id="email" class="text-input"type="Email" maxlength="100">
                 </div>
 
                 <div class="input-box">
-                    <label class="title-form" for="name">Mensagem</label>
-                    <input class="text-input -message" type="text" maxlength="1000">
+                    <label class="main-label" for="message">Mensagem</label>
+                    <textarea id="message"class="text-input -message" type="text-area" maxlength="1000"></textarea>
                 </div>
                 
                 <div class="input-box">
-                    <input class="input-submit"type="submit">
+                    <input class="input-submit" type="submit" value="Enviar">
                 </div>
+
             </form>
             
 
