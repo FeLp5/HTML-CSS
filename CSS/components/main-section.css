@@ -21,6 +21,17 @@
 .main-section.-bdBlack{
     border-color: #000;
 }
+
 .main-section.-bgSecond{
     background-color: #7C5E99;
+}
+
+.main-section.-bgblacksecond{
+    border-bottom: none;
+    background-color: #3A4042;
+}
+
+.main-section.-form{
+    border-bottom: none;
+    background-color: #3A4042;
 }
