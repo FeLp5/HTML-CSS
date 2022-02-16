@@ -1,0 +1,42 @@
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* INPUTS */
+.input-box .text-input{
+    width: 1360px;
+    height: 50px;
+    border: 5px solid #000;
+    font-size: 20px;
+}
+
+.input-box .text-input.-message{
+    width: 1360px;
+    height: 320px;
+    max-lines: 2;
+}
+
+.input-box .input-submit{
+    width: 1360px;
+    height: 60px;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+
+    background-color: #72bdaa;
+    box-shadow: 3px 3px 0 #000;
+    color: #fff;
+    cursor: pointer;
+}
