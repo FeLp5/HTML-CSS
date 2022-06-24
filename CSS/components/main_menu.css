@@ -5,7 +5,7 @@
     cursor: pointer;
     background-color: #fff;
     border-radius: 50%;
-    animation: transform 2000ms ease-in;
+    transition: transform 200ms ease-in;
 }
 
 .menu:hover{
