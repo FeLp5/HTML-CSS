@@ -11,25 +11,25 @@
 //#9 
 
 
-//query significa 'busca' e selector de seletor
-const btnRight = window.document.querySelector(".button-arrow.-right");
-const btnLeft = window.document.querySelector(".button-arrow.-left");
-const elements = window.document.querySelector(".elements");
-var pixels = 0;
-//cria uma variavel para somar os 'pxs' para que possamos mover o carousel
+// //query significa 'busca' e selector de seletor
+// const btnRight = window.document.querySelector(".button-arrow.-right");
+// const btnLeft = window.document.querySelector(".button-arrow.-left");
+// const elements = window.document.querySelector(".elements");
+// var pixels = 0;
+// //cria uma variavel para somar os 'pxs' para que possamos mover o carousel
 
 
-//adicionamos o listener para entender o que está ocorrendo com o botão
-btnRight.addEventListener('click', function(){
-    pixels = pixels +200;
-    elements.style = `transform: translateX(${pixels}px)`;
+// //adicionamos o listener para entender o que está ocorrendo com o botão
+// btnRight.addEventListener('click', function(){
+//     pixels = pixels +200;
+//     elements.style = `transform: translateX(${pixels}px)`;
 
-});
+// });
 
 
-//adicionamos o listener para entender o que está ocorrendo com o botão
-btnLeft.addEventListener('click', function(){
-    pixels = pixels - 200;
-    elements.style = `transform: translateX(${pixels}px)`;
+// //adicionamos o listener para entender o que está ocorrendo com o botão
+// btnLeft.addEventListener('click', function(){
+//     pixels = pixels - 200;
+//     elements.style = `transform: translateX(${pixels}px)`;
 
-});
+// });

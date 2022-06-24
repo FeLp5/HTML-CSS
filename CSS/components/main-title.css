@@ -2,12 +2,12 @@
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 36px;
-    color: #72bdaa;
-    text-shadow: 5px 5px 0px #000;
+    color: #fff;
+    text-shadow: 5px 5px 0px #2F17CE;
 }
 
 .main-title.-second{
     color: #FFF;
-    text-shadow: none;
+    text-shadow: #1A0D73;
     text-align: center;
 }

@@ -1,5 +1,20 @@
 .wrapper-card{
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+}
+
+.wrapper-card .card-project
+{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.wrapper-card .calculadora{
+    max-width: 50%;
+}
+
+.wrapper-card .to-do{
+    max-width: 50%;
 }

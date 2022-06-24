@@ -1,0 +1,17 @@
+Display: inline, block, flex
+propriedades: align-items, flex-direction, justify-content;
+padding, margin, width, height;
+z-index;
+position - absolute and relative: "child's" only obey its "father"
+(conceps of reset.css)
+
+progress-bar (-webkit and -moz) for test only for while
+box-sizing -> property - border-box (include the size of the bord into total size of object)
+
+
+
+
+
+
+
+JavaScript -> querySelector; getElementbyId

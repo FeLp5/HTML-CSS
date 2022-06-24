@@ -2,17 +2,17 @@
     height: 40px;
     box-sizing: border-box;
     overflow: hidden;
-    border: 5px solid #000;
+    border: 2px solid #fff;
 }
 
 .progress-bar::-webkit-progress-bar {
-    background: #eeeeee;
+    background: #000;
     border-radius: 2px;
 }
 
 
 .progress-bar::-webkit-progress-value{
-    background-color: #203d36;
+    background-color: #2F17CE;
 }
 
 

@@ -1,17 +1,18 @@
 .main-logo{
     font-family: 'Pushster', cursive;
     font-size: 50px;
-    text-shadow: 1px 1px 0 #FFF;
+    /* margin-right: 100px; */
+    text-shadow: -2px 2px 0 #FFF;
 }
 .main-logo::after{
     content: "5";
-    color: #72bdaa;
+    color: #2F17CE;
     text-shadow: 1px 1px 0 #FFF;
 }
 
 
 .main-logo.-project{
-    font-size: 100px;
+    font-size: 50px;
     text-decoration: none;
     
 }

@@ -13,6 +13,8 @@
         <link rel= "stylesheet" href = "CSS/main-reset.css"> 
         <link rel="stylesheet" href="CSS/components/progress-bar.css">
         <link rel="stylesheet" href="CSS/components/main-header.css">
+        <link rel="stylesheet" href="CSS/components/main_menu.css">
+        <link rel="stylesheet" href="CSS/components/menu_botao.css">
         <link rel="stylesheet" href="CSS/components/main-banner.css">
         <link rel="stylesheet" href="CSS/components/main-section.css">
         <link rel="stylesheet" href="CSS/components/main-button.css">
@@ -34,6 +36,7 @@
         <link rel="stylesheet" href="CSS/components/main-label.css">
         <link rel="stylesheet" href="CSS/components/input-box.css">
         <link rel="stylesheet" href="CSS/components/main-footer.css">
+        <link rel="stylesheet" href="CSS/components/main-responsive.css">
 
         <title>Portfólio FeLp5</title>
     </head>
@@ -42,21 +45,35 @@
             <a class="button-logo" href="">
                 <h1 class="main-logo">FeLp</h1>
             </a>
-            
+
             <nav>
-                <a class= "main-action" href="" lang="en" target="">Skills</a>
-                <a class= "main-action" href="" target="">Projetos</a>
-                <a class= "main-action" href="" target="">Sobre</a>
-                <a class= "main-action" href="" target="">Contatos</a>
-                <a class = "main-button" href="" lang="en" target="">Download CV</a>
+                <a class="menu" target="">
+                    <img src="imgs/icons/iconmonstr-menu-dot-horizontal-circle-lined-240.png" alt="" srcset="">
+                </a>
+                <a class= "main-action -sk" lang="en" target="">Skills</a>
+                <a class= "main-action -pj" target="">Projetos</a>
+                <a class= "main-action -ab" target="">Sobre</a>
+                <a class= "main-action -ct" target="">Contatos</a>
+                <a class = "main-button"  lang="en" target="">Download CV</a>
             </nav>
-        </header>  
+        </header> 
+        
+        <div id="menu_botao">
+            <nav>
+                <a class= "" href= "../index.html" lang="en" target="">Home</a>
+                <a class= "" target="">Descrição</a>
+                
+                <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
+    
+            </nav>
+    
+        </div> 
 
         <section class="main-banner">
             <div class="wrapper">
                 <div class="main-box">
                     <h2 class="main-title">Felipe Alves</h2>
-                    <h3 class="main-subtitle" lang="en">FrontEnd Developer</h3>
+                    <h3 class="main-subtitle" lang="en">Dev</h3>
                 </div>
 
                 <div class="navigation">
@@ -149,13 +166,13 @@
             <div class="wrapper-card">
                 <a href="">
                     <figure class="card-project">
-                        <img class="" src="imgs/logos/logo-firedlabs.png" alt="Logo do Firelabs">
+                        <img class="calculadora" src="imgs/icons/iconmonstr-calculator-1-240.png" alt="Logo do Firelabs">
                     </figure>
                 </a>
 
-                <a href="">
+                <a href="./to-do-list/index.html">
                     <figure class="card-project -blue">
-                        <img src="imgs/logos/logo-collabcode.png" alt="Logo da Collabcode">
+                        <img class= "to-do" src="imgs/icons/iconmonstr-task-thin-240.png" alt="Logo da Collabcode">
                     </figure>
                 </a>
 
@@ -174,7 +191,7 @@
             <h2 class="main-title -second">Sobre</h2>
             
 
-            <section class="main-carousel">
+            <!-- <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Avançar</span></button>
 
 
@@ -232,13 +249,13 @@
                 </div>
 
                 <button class="button-arrow -right"><span class="content">Avançar</span></button>
-            </section>
+            </section> -->
             
             <div class="text-box">
                 <div class="text-content">
                     
                     <p class="main-description">
-                        Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+                        Hey there! Meu nome é Felipe, tenho 21 anos. Em 2018 iniciei meus estudos na área de tecnologia em Eletrônica Automotiva, nesse período estive focado na implementação de software com objetivo de solução de problemas, visto que a área automotiva está em uma transição tecnologica, com uma eletrônica embarcada cada vez mais complexa e sofisticada. Também fui monitor de Cálculo I, onde minha função era auxiliar os alunos tirando suas dúvidas.
                     </p>
     
                 </div>
@@ -253,12 +270,12 @@
             <form class="main-form" action="">
                 <div class="input-box">
                     <label class="main-label" for="name">Nome</label>
-                    <input id="name" class="text-input"type="text" maxlength="100">
+                    <input id="name" class="text-input"type="text" maxlength="50">
                 </div>
 
                 <div class="input-box">
                     <label class="main-label" for="email">Email</label>
-                    <input id="email" class="text-input"type="Email" maxlength="100">
+                    <input id="email" class="text-input"type="Email" maxlength="50">
                 </div>
 
                 <div class="input-box">
@@ -276,7 +293,7 @@
         </section>
 
         <footer class="main-footer">
-                <a href="" target="blank">
+                <!-- <a href="" target="blank">
                     <img class="icon" src="imgs/icons/icon-twitter.png" alt="Icone do Twitter">
                 </a>
 
@@ -286,9 +303,12 @@
 
                 <a href="" target="blank">
                     <img class="icon" src="imgs/icons/icon-discord.png" alt="Icone do Discord">
-                </a>
+                </a> -->
+                <p>Layout disponibilizado pelo desenvolvedor Mauro Bruno, paleta de cores escolhida por Felipe</p>
         </footer>
         
         <script src="JS/components/main-carousel.js"></script>
+        <script src="JS/components/main-scroll.js"></script>
+        <script src="JS/components/menu.js"></script>
     </body>
 </html>

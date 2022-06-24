@@ -1,0 +1,39 @@
+.button-calculadora{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.button-calculadora .add-button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1A0D73;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button-calculadora .tasks-button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1A0D73;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+@media(max-width: 820px)
+{
+    .main-button{
+        width: 50%;
+    }
+}
