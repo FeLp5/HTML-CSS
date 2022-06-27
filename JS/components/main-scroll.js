@@ -34,7 +34,7 @@ sobre_btn.addEventListener('click', function()
 contato_btn.addEventListener('click', function()
 {
     // alert('to ouvino')
-    window.scroll(0, 2320)
+    window.scroll(0, 3500)
 
 
 })
