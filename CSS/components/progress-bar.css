@@ -16,6 +16,15 @@
 }
 
 
+.progress-bar::-moz-progress-bar{
+    background: #000;
+    border-radius: 2px;
+}
+
+.progress-bar::-moz-progress-value{
+    background-color: #2F17CE;
+}
+
 .right .title{
     display: flex;
     flex-direction: column;
