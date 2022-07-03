@@ -9,7 +9,7 @@ const skill_container = window.document.querySelector(".main-section");
 skill_btn.addEventListener('click', function()
 {
     // alert('to ouvino')
-    window.scroll(0, 500)
+    window.scroll(0, 320)
 
 
 })

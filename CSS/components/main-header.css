@@ -1,8 +1,12 @@
 .main-header{
+    width: 100%;
     background-color:#1A0D73;
     border-bottom: 5px solid #fff;
     padding: 10px 20px;
     display: flex;
+    position: fixed;
+    /* transform: translateY(30px    ); */
+    z-index: 1;
     /* overflow: hidden; */
     /* O display flex cria uma flex box que ajuda a alinhar os elementos  */
     justify-content: center;
@@ -10,4 +14,11 @@
 
 .main-header .main-logo{
     padding-right: 100px;
+}
+
+
+.main-header .container-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

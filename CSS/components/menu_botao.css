@@ -1,5 +1,11 @@
 #menu_botao{
     display: none;
     background-color: #fff;
-    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    transform: translateY(60px);
+    margin: 0px 500px;
+    padding: 1px;
+    /* justify-content: center; */
+    /* width: 100%; */
 }
