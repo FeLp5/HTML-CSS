@@ -117,11 +117,7 @@ v
         /* max-width: 200px; */
         transform: scale(0.6);
     }
-   .main-header{
-        /* width: auto; */
-        /* justify-content: flex-start; */
-    }
-    
+
 
     .main-header .main-logo
     {
@@ -158,7 +154,6 @@ v
         display: flex;
         flex-direction: column;    
         width: 250px;
-        padding-bottom: 20000px;
     }
     .main-title{
         font-size: 20px;
