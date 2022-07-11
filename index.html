@@ -43,43 +43,43 @@
     </head>
     <body>
         <header class="main-header">
-            <a class="button-logo" href="">
-                <h1 class="main-logo">FeLp</h1>
-            </a>
             <div class="container-menu">
+                <a class="button-logo" href="">
+                    <h1 class="main-logo">FeLp</h1>
+                </a>
     
                 <nav>
-                    <a class="menu" target="">
+                    <a id="menu" target="">
                         <img src="imgs/icons/iconmonstr-menu-dot-horizontal-circle-lined-240.png" alt="" srcset="">
                     </a>
                     <a class= "main-action -sk" lang="en" target="">Skills</a>
                     <a class= "main-action -pj" target="">Projetos</a>
                     <a class= "main-action -ab" target="">Sobre</a>
                     <a class= "main-action -ct" target="">Contatos</a>
-                    <a class= "main-button" href="#" lang="en" target="">Download CV</a>
+                    <a class= "main-button" href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218/" lang="en" target="">Linkedin</a>
                 </nav>
                 
             </div>
+            <div id="menu_botao">
+                <nav>
+                    <a class= "" href= "../index.html" lang="en" target="">Home</a>
+                    <!-- <a class= "" target="">Descrição</a> -->
+                    <a class= "-sk-menu" lang="en" target="">Skills</a>
+                    <a class= "-pj-menu" target="">Projetos</a>
+                    <a class= "-ab-menu" target="">Sobre</a>
+                    <a class= "-ct-menu" target="">Contatos</a>
+                    <a class= "" href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218/" lang="en" target="">Linkedin</a>
+                    
+                    <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
+        
+                </nav>
+        
+            </div> 
         </header> 
         
-        <div id="menu_botao">
-            <nav>
-                <a class= "" href= "../index.html" lang="en" target="">Home</a>
-                <a class= "" target="">Descrição</a>
-                <a class= "-sk" lang="en" target="">Skills</a>
-                <a class= "-pj" target="">Projetos</a>
-                <a class= "-ab" target="">Sobre</a>
-                <a class= "-ct" target="">Contatos</a>
-                <a class= "" href="#" lang="en" target="">Download CV</a>
-                
-                <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
-    
-            </nav>
-    
-        </div> 
         
 
-        <section class="main-banner">
+        <section id="main-banner">
             <div class="wrapper">
                 <div class="main-box">
                     <h2 class="main-title">Felipe Alves</h2>
@@ -174,13 +174,13 @@
         <section class="main-section -bgBlack-Green -bdFirst">
             <h2 class="main-title -second">Projetos</h2>
             <div class="wrapper-card">
-                <a href="">
+                <a href="#" class="calculator">
                     <figure class="card-project">
                         <img class="calculadora" src="imgs/icons/iconmonstr-calculator-1-240.png" alt="Logo do Firelabs">
                     </figure>
                 </a>
 
-                <a href="./to-do-list/index.html">
+                <a href="./to-do-list/index.html" class="to-do-list">
                     <figure class="card-project -blue">
                         <img class= "to-do" src="imgs/icons/iconmonstr-task-thin-240.png" alt="Logo da Collabcode">
                     </figure>
@@ -320,5 +320,6 @@
         <script src="JS/components/main-carousel.js"></script>
         <script src="JS/components/main-scroll.js"></script>
         <script src="JS/components/menu.js"></script>
+        <script src="JS/components/main-warnings.js"></script>
     </body>
 </html>
