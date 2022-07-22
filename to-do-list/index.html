@@ -3,85 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar</title>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, viewport-fit=cover, user-scalable=no">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&family=Pushster&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./assets/css/main_menu.css">
     <link rel="stylesheet" href="./assets/css/menu_botao.css">
     <link rel="stylesheet" href="../CSS/components/main-action.css">
     <link rel="stylesheet" href="./assets/css/main_btn_header.css">
-    <link rel="stylesheet" href="../CSS/components/main-header.css">
+    <link rel="stylesheet" href="./assets//css/main-header.css">
     <link rel="stylesheet" href="../CSS/components/main-logo.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/main-button-calc.css">
-    <link rel="stylesheet" href="./assets/css/main-home.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/main-container.css">
+    <link rel="stylesheet" href="./assets/css/main-responsive.css">
 </head>
 
 
 <body>
     
     <header class="main-header">
-        <a class="button-logo" href="">
-            <h1 class="main-logo">FeLp</h1>
-        </a>
-        
-        <nav>
-            <a class= "main-action -sk" href= "../index.html" lang="en" target="">Home</a>
-            <a class= "main-action -pj" target="">Descrição</a>
-            
-            <a class="menu" target="">
-                <img src="./assets/img/iconmonstr-menu-dot-horizontal-circle-lined-240.png" alt="" srcset="">
+        <div class="container-menu">
+            <a class="button-logo" href="">
+                <h1 class="main-logo">FeLp</h1>
             </a>
-            <!-- <a class= "main-action -ab" target="">Sobre</a>
-                <a class= "main-action -ct" target="">Contatos</a> -->
-                <a class = "main-button"  lang="en" target="">Download CV</a>
-        </nav>
-        
-    </header>  
-    <div id="menu_botao">
-        <nav>
-            <a class= "" href= "../index.html" lang="en" target="">Home</a>
-            <a class= "" target="">Descrição</a>
-            
-            <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
 
-        </nav>
+            <nav>
+                <a id="menu" target="">
+                    <img src="../imgs/icons/iconmonstr-menu-dot-horizontal-circle-lined-240.png" alt="" srcset="">
+                </a>
 
-    </div>
-    
-        
-        <div class="container">
-        <h1>To-do list</h1>
-        
-        <div class="button-calculadora">
-            <a href="./index.html" class="add-button">+ Adicionar</a>
-            <a href="./tasks.html" class="tasks-button">Lista de Tarefas</a>
+                <a class= "main-action" href= "../index.html" lang="en" target="">Home</a>
+                <a class= "main-action" target="">Descrição</a>
+                <a class= "main-button" target="_blank_" href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218/" lang="en" target="">Linkedin</a>
+            </nav>
             
         </div>
         
+        <div id="menu_botao">
+            <nav>
+                <a class= "" href= "../index.html" lang="en" target="">Home</a>
+                <a class= "" target="">Descrição</a>
+                
+                <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
+    
+            </nav>
+    
+        </div>
+    </header>  
+    
         
-        <div class="list-task">
-            <div class="input-task">
-                <p>Tarefa</p>
-                <input type="text" name="title" id="titulo-tarefa">
-                <p>Descrição da tarefa:</p>
-                <textarea name="" id="input" cols="30" rows="10"></textarea>
-                <button class="add-task">Adicionar tarefa</button>
+    <div class="main-container">
+            <h1>To-do list</h1>
+        
+            <div class="button-calculadora">
+                <a href="./index.html" class="add-button">+ Adicionar</a>
+                <a href="./tasks.html" class="tasks-button">Lista de Tarefas</a>
+                
+            </div>
+            
+            
+            <div class="list-task">
+                <div class="input-task">
+                    <p>Tarefa</p>
+                    <input type="text" name="title" id="titulo-tarefa">
+                    <p>Descrição da tarefa:</p>
+                    <textarea name="" id="input" cols="30" rows="10"></textarea>
+                    <button class="add-task">Adicionar tarefa</button>
+                </div>
+                
+                
+                
+                
             </div>
             
             
             
             
-        </div>
-        
-        
-        
-        
-        <script src="./assets/js/script.js"></script>
-        <script src="./assets/js/menu.js"></script>
+            <script src="./assets/js/script.js"></script>
+            <script src="./assets/js/menu.js"></script>
+            <script src="./assets/js/add_task.js"></script>
     </div>
     
 </body>

@@ -1,28 +1,61 @@
 #menu_botao{
     display: none;
     background-color: #fff;
-    /* position: fixed; */
-    transform: translate(-20px, 15px);
-    /* transform: translateY(15px); */
+    min-height: 10px;
+    max-height: 200px;
+    transform: translate(0, 15px);
+
     border-radius: 2px;
-    padding: 20px;
-    /* margin: 0px 500px; */
-    /* padding-top: 1px; */
-    /* justify-content: center; */
-    /* width: 100%; */
+
+    animation: open_menu_bar 200ms;
+    width: 100%;
+    flex-grow: 10;
 }
 
-
-
+#menu_botao nav{
+    margin: 10px;
+    animation: open_menu_bar_ap 500ms;
+}
 
 #menu_botao a{
     margin: 10px;
-    transition: transform 10ms ease-in-out;
 }
 
 #menu_botao a:hover{
     background-color: #1A0D73;
-    border-radius: 2px;
+    border-radius: 1px;
     color: #fff;
-    transform: scale(2);
+    cursor: pointer;
 } 
+
+@keyframes open_menu_bar{
+    from 
+    {
+        width: 0%;
+    }
+    
+    to
+    {
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@keyframes open_menu_bar_ap{
+    from 
+    {
+
+        transition: translateY(-10px);
+        font-size: 0%;
+        opacity: 0%;
+    }
+    
+    to
+    {
+        transition: translateY(0px);
+        font-size: 100%;
+        opacity: 100%;
+    }
+
+}

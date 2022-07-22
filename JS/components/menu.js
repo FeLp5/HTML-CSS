@@ -11,11 +11,11 @@ menu_btn.addEventListener('click', function(){
     if(state != true)
     {
         menu_btn.style.transform = "rotate(90deg)"
+        menu_btn.style.transitionDelay = "5ms"
         menu.style.display = "flex";
         menu.style.flexDirection = "column"
         menu.style.alignItems = "center"
-        menu.style.justifyContent = "center"
-        menu.style.textAlign = "center  "
+        menu.style.textAlign = "center "
         section_present.style.paddingTop = "150px"
         state = true;
     }
