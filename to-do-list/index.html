@@ -11,15 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&family=Pushster&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./assets/css/main_menu.css">
-    <link rel="stylesheet" href="./assets/css/menu_botao.css">
+    <link rel="stylesheet" href="./assets/css/menu_botoes.css">
     <link rel="stylesheet" href="../CSS/components/main-action.css">
     <link rel="stylesheet" href="./assets/css/main_btn_header.css">
     <link rel="stylesheet" href="./assets//css/main-header.css">
     <link rel="stylesheet" href="../CSS/components/main-logo.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset-style.css">
     <link rel="stylesheet" href="./assets/css/main-button-calc.css">
-    <link rel="stylesheet" href="./assets/css/main-container.css">
     <link rel="stylesheet" href="./assets/css/main-responsive.css">
+    <link rel="stylesheet" href="./assets/css/main_tasks.css">
 </head>
 
 
@@ -46,47 +46,38 @@
         <div id="menu_botao">
             <nav>
                 <a class= "" href= "../index.html" lang="en" target="">Home</a>
-                <a class= "" target="">Descrição</a>
-                
-                <!-- <a class = "main-button"  lang="en" target="">Download CV</a> -->
-    
             </nav>
-    
         </div>
     </header>  
     
         
     <div class="main-container">
-            <h1>To-do list</h1>
+            <h1>To-do</h1>
         
             <div class="button-calculadora">
-                <a href="./index.html" class="add-button">+ Adicionar</a>
-                <a href="./tasks.html" class="tasks-button">Lista de Tarefas</a>
+                <a href="#" class="add-button">+ Adicionar</a>
+                <a class="tasks-button">Lista de Tarefas</a>
                 
             </div>
             
             
-            <div class="list-task">
+            <form class="list-task">
                 <div class="input-task">
                     <p>Tarefa</p>
                     <input type="text" name="title" id="titulo-tarefa">
-                    <p>Descrição da tarefa:</p>
-                    <textarea name="" id="input" cols="30" rows="10"></textarea>
-                    <button class="add-task">Adicionar tarefa</button>
                 </div>
-                
-                
-                
-                
+            </form>
+
+            <div id="task_field">
+
+
             </div>
-            
-            
-            
-            
-            <script src="./assets/js/script.js"></script>
-            <script src="./assets/js/menu.js"></script>
-            <script src="./assets/js/add_task.js"></script>
+
     </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/add_task.js"></script>
     
 </body>
 </html>

@@ -292,7 +292,66 @@ v
 
 }
 
+@media(max-width: 820px){
+    .container{
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
 
+}
+
+@media(max-width: 620px){
+
+    #titulo-tarefa{
+        min-width: 400px;
+        max-width: 400px;
+    }
+    
+
+}
+
+@media(max-width: 412px)
+{
+    #input{
+        min-width: 200px;
+        min-height: 50px;
+        max-width: 600px;
+        max-height: 200px;
+
+    }
+    .container{
+        width: 100%;
+    }
+
+
+    #titulo-tarefa{
+        min-width: 200px;
+        max-width: 200px;
+    }
+    
+    
+}
+
+@media(max-width: 226px)
+{
+    #input{
+        min-width: 50px;
+        min-height: 25px;
+        max-width: 300px;
+        max-height: 200px;
+
+    }
+    .container{
+        width: 100%;
+    }
+
+    .container .list-task{
+
+    }
+
+    
+}
 
 /* @media(max-width: 934px){
     .main-header{

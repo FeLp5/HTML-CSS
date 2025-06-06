@@ -6,12 +6,8 @@
     padding-top: 28px;
     padding-bottom: 28px;
     background-color: #000;
+    overflow: hidden;
 }
-
-/* .infos p
-{
-    margin-bottom: 10px;
-} */
 
 
 p:nth-child(1)

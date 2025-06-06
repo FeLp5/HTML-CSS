@@ -5,7 +5,7 @@
     text-shadow: -2px 2px 0 #FFF;
 }
 .main-logo::after{
-    content: "5";
+    content: "";
     color: #2F17CE;
     text-shadow: 1px 1px 0 #FFF;
 }

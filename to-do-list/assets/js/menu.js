@@ -1,6 +1,5 @@
 const menu_btn = window.document.getElementById("menu")
 const menu = document.getElementById("menu_botao")
-const section_present = document.querySelector(".main-container")
 var state;
 
 
@@ -16,13 +15,11 @@ menu_btn.addEventListener('click', function(){
         menu.style.flexDirection = "column"
         menu.style.alignItems = "center";
         menu.style.textAlign = "center ";
-        // section_present.style.paddingTop = "150px";
         state = true;
     }
     else
     {
         menu_btn.style.transform = "rotate(-90deg)";
-        section_present.style.paddingTop = "30px";
         menu.style.display = "none";
         state = false;
     }
