@@ -11,7 +11,7 @@
 
     background-color: rgb(15, 15, 15);
     box-shadow: 0px 2px 10px rgb(16, 65, 16);
-
+    user-select: none;
 
 }
 
@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    user-select: none;
 }
 
 .main-logo{

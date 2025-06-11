@@ -1,0 +1,52 @@
+.main-presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+.main-container-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-download-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-main-cv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:3rem;
+}
+
+.main-container-foto{
+    background-color: #fff;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+}
+
+.main-download{
+    width: 2rem;
+
+}
+
+.main-download-container .download-p{
+    color: #fff;
+}
+
+.main-btn-linkedin{
+    text-decoration: none;
+    color: #fff;
+}
