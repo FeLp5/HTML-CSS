@@ -1,14 +1,79 @@
 .main-presentation{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 50px;
-    margin-top: 1rem;
+    /* width: auto; */
+    /* height: 200px; */
+    margin-top: 5rem;
     gap: 3rem;
 }
+
+.main-presentation-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+
+.main-container-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-description{
+    text-align: justify;
+    width: 20rem;
+}
+
+.p-main-description{
+    color: #F1F0F1;
+
+}
+
+.main-logo{
+    color: #F1F0F1;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fake-html-logo{
+    color: #F1F0F1;
+}
+
+@keyFrames slide-in{
+    from{
+        transform: scale(1.0);
+
+    }
+
+    to{
+        transform: scale(1.1);
+        /* color: #24241E; */
+
+    }
+}
+
+
+.main-logo:hover{
+    animation: slide-in 5s ease;
+}
+
+
 
 .main-container-foto{
     display: flex;
@@ -31,7 +96,7 @@
 }
 
 .main-container-foto{
-    background-color: #fff;
+    background-color: #F1F0F1;
     height: 10rem;
     width: 10rem;
     border-radius: 1.5rem;
@@ -43,10 +108,10 @@
 }
 
 .main-download-container .download-p{
-    color: #fff;
+    color: #F1F0F1;
 }
 
 .main-btn-linkedin{
     text-decoration: none;
-    color: #fff;
+    color: #F1F0F1;
 }
