@@ -7,7 +7,21 @@
     /* width: auto; */
     /* height: 200px; */
     margin-top: 5rem;
-    gap: 3rem;
+    gap: 2rem;
+}
+
+.main-presentation .main-tech
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.container-main-cv
+{
+    margin-bottom: 2rem;
 }
 
 .main-presentation-logo{
@@ -15,6 +29,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 
 }
@@ -42,7 +57,8 @@
 
 .p-main-description{
     color: #F1F0F1;
-
+    text-decoration: none;
+    text-align: center;
 }
 
 .main-logo{
