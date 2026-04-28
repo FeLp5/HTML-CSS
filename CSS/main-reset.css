@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	/* font: "inherit"; */
 	/* vertical-align: baseline; */
+	font-family: 'Pixelify Sans', sans-serif; scroll-behavior: smooth; 	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,9 +32,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: "Fira Code", Arial, Helvetica, sans-serif;
+	/* font-family: "Fira Code", Arial, Helvetica, sans-serif; */
 	width: 100%;
 	margin: 0;
+	font-family: 'Pixelify Sans', sans-serif; scroll-behavior: smooth; 	
 	/* overflow: hidden; */
 }
 ol, ul {
@@ -64,4 +67,18 @@ body{
 
 progress-bar{
 	overflow: hidden;
+}
+
+
+
+
+:root {
+  --cor-meu-nome: #e54646;
+  --cor-secundaria: #ebc625;
+  --espacamento: 16px;
+}
+
+
+h1{
+	color: var(--cor-meu-nome);
 }
