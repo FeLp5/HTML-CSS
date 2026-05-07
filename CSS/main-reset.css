@@ -23,7 +23,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	/* font: "inherit"; */
 	/* vertical-align: baseline; */
-	font-family: 'Pixelify Sans', sans-serif; scroll-behavior: smooth; 	
+
+	font-family: "Space Grotesk", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -32,10 +33,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	/* font-family: "Fira Code", Arial, Helvetica, sans-serif; */
+
 	width: 100%;
 	margin: 0;
-	font-family: 'Pixelify Sans', sans-serif; scroll-behavior: smooth; 	
+	font-family: "Space Grotesk", sans-serif; scroll-behavior: smooth; 	
 	/* overflow: hidden; */
 }
 ol, ul {
@@ -54,14 +55,25 @@ q:before, q:after {
 	border-spacing: 0;
 } */
 
+:root {
+  --cor-meu-nome: #468be5;
+  --cor-secundaria: #327daf;
+  --cor-enquadramento: #7274e750;
+  --cor-background-white-mode: #ffffff;
+  --cor-texto-white-mode: #141414;
+  --cor-background-dark-mode: #141414;
+  --espacamento: 16px;
+  --size-section: 200px
+}
+
 button{
 	border: none;
-	font-family: inherit;
+
 }
 
 
 body{
-	background-color: #141414;
+	background-color: var(--cor-background-white-mode);
 
 }
 
@@ -70,15 +82,33 @@ progress-bar{
 }
 
 
-
-
-:root {
-  --cor-meu-nome: #e54646;
-  --cor-secundaria: #ebc625;
-  --espacamento: 16px;
+img {
+  width: auto;
+  height: auto;
 }
 
 
+
+
 h1{
-	color: var(--cor-meu-nome);
+	color: var(--cor-texto-white-mode);
+}
+
+
+.logo{
+	font-size: 2rem;
+	user-select: none;
+	cursor: pointer;
+}
+
+main{
+	padding-top: 8rem;
+}
+
+h1{
+	font-family: "Space Grotesk";
+}
+
+p{
+	color: var(--cor-texto-white-mode);
 }

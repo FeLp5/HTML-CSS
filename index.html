@@ -7,117 +7,83 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&family=Pushster&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
         <link rel= "stylesheet" href = "CSS/main-reset.css"> 
-        <link rel= "stylesheet" href = "CSS/components/carrousel.css"> 
+        <link rel= "stylesheet" href = "CSS/components/header.css"> 
+        <link rel= "stylesheet" href = "CSS/components/animacao.css"> 
+        <link rel= "stylesheet" href = "CSS/components/apresentacao-section.css"> 
+        <link rel= "stylesheet" href = "CSS/components/about.css"> 
+
 
         <title>Felipe Alves - Dev</title>
     </head>
 
-    <body>
+    <body class="y mandatory-scroll-snapping" dir="ltr">
  
         <!-- Aqui é o header que contém a tag nav -->
-        <header class="container-header">
-            <nav class="flex gap-3 flex-row  justify-between">
-                <div class="text-5xl text-blue-500 ml-20 mt-5 rounded">
-                    <h1 class="font-sans font-bold">Felipe</h1>
+        <header>
+            <div class="container-header">
+                <nav class="gap-3 nav-header">
+                    <h1 class="font-sans font-bold logo text-center">Felipe Alves</h1>
+                    <div class="flex items-center gap-2">
+                        <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Projetos</a>
+                        <a class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" id="about-btn">Sobre mim</a>
+                        <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Contato</a>
+                    </div>
+                </nav>
 
-                </div>
-                <div class="flex items-center gap-2 mr-16 mt-5">
-                    <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Work</a>
-                    <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">About</a>
-                    <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Contact</a>
-                </div>
-            </nav>
+            </div>
 
         </header>
 
-        <!-- Carrossel Infinito de Tecnologias -->
-        <div class="w-full py-5 overflow-hidden bg-gray-500 border-y border-slate-100 mt-10">
-            <div class="animate-scroll flex items-center gap-12 px-12">
-                <!-- Lista de Techs (Duplicada para o efeito infinito) -->
-                <div class="flex items-center gap-12">
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C# .NET</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">AI</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C / C++</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Javascript</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">HTML</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">CSS</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Python</span>
+        <main>
+
+            <section class="flex flex-row justify-center align-center animar gap-5 flex-wrap apresentacao-section">
+                <div class="apresentacao-enquadramento">
+                   <h1 class="font-sans font-bold text-center" style="font-size: 2rem;">Felipe Alves <p><arrow><</arrow> FullStackDeveloper <arrow>/></arrow></p> </h1>
                 </div>
-                <!-- Duplicação para loop -->
-                <div class="flex items-center gap-12" aria-hidden="true">
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C# .NET</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">AI</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C / C++</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Javascript</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">HTML</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">CSS</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Python</span>
-                </div>
-                <!-- Terceira vez para garantir fluidez em ecrãs ultra-wide -->
-                <div class="flex items-center gap-12" aria-hidden="true">
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C# .NET</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">AI</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">C / C++</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Javascript</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">HTML</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">CSS</span>
-                    <span class="text-2xl font-bold text-slate-300 hover:text-indigo-600 transition-colors cursor-default">Python</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Aqui é a primeira seção que vai conter os principais projetos (cards)-->
-        <section class="main-presentation flex items-center justify-center mt-20 ">
-            <h1 class="text-5xl font-bold text-blue-300 font-sans mr-10">Smart Systems.</h1>
-            <h1 class="text-5xl text-blue-300 font-sans font-bold">Be more eficient.</h1>
-        </section>
-
-
-        <!-- Seção de projetos-->
-        <section class="min-h-screen flex items-center justify-center ">
-            
-            <div class="bg-white py-20 px-20 rounded shadow-lg">
-                
-                <div class="flex flex-col items-center text-center">
-                    <h2 class="m-0 p-0">Sistema de Controle Financeiro</h2>
-                    <p class="m-0 p-0 text-sans">Mobile</p>
-                </div>
-
-                <div class="flex gap-2 justify-center mt-6">
-                    <button class="px-4 py-2 bg-slate-100 text-slate-600 rounded-lg text-sm font-bold hover:bg-indigo-600 hover:text-white transition-all">
-                        Todos
-                    </button>
-                    <button class="px-4 py-2 bg-slate-100 text-slate-600 rounded-lg text-sm font-bold hover:bg-indigo-600 hover:text-white transition-all">
-                        Web
-                    </button>
-                    <button class="px-4 py-2 bg-slate-100 text-slate-600 rounded-lg text-sm font-bold hover:bg-indigo-600 hover:text-white transition-all">
-                        Mobile
-                    </button>
-                </div>
-
-            </div>
-
-        </section>
     
+                <div class="flex flex-col flex-wrap flex-grow-0 text-center items-center">
+                    <div class="flex justify-center apresentacao-foto" style="width: 10rem;">
+                        <img src="./imgs/icons/my-photo.png" style="border-radius: 50%;" alt="" class="max-w-full h-auto object-contain flex-shrink-0"> 
+                    </div>
+                    <p class="text-5x1 font-sans apresentacao-resumo">FullStack Developer <br> C|C#|.NET|Developer<br>Tecnólogo em Eletrônica Automotiva.</p>
+                </div>
+            </section>
+    
+    
+    
+         
+            <section class=" page text-center m-20 animar" id="section-about">
+                <h1 class="m-10 p-5 text-5xl">Sobre mim</h1>
+                <div>
+                    <p class="font-sans">Desenvolvedor Backend com experiência em sistemas embarcados em C e desenvolvimento de
+                        aplicações web com ASP.NET Core. Atuação em integração com APIs REST, desenvolvimento
+                        de plataforma interna para aumento de produtividade e redução de tempo gasto no
+                        desenvolvimento de sistemas. <br></p>
+                </div>
+                
+                <h2 class="m-10 p-5" style="font-size:2rem">Minha trajetoria</h2>
 
-        
+
+            </section>
+  
+        </main>
 
 
 
-            
         <footer class="main-rodape">
-            
             <div class="container-contact flex flex-row gap-5 justify-center items-center mt-20">
-                <a class="main-btn-linkedin bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded"href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a class="main-btn-linkedin bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" href="https://www.linkedin.com/in/felp5/" target="_blank" rel="noopener noreferrer">Linkedin</a>
                 <a class="main-btn-linkedin bg-gray-500 hover:bg-gray-600 px-2 py-1 rounded"href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </footer>
+
+
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
         <script src="JS/main-script.js"></script>
+        <script src="JS/components/about.js"></script>
                 
     </body>
 </html>

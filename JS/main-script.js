@@ -1,19 +1,17 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const { createTimeline, stagger, splitText } = anime;
 
-  const { words, chars } = splitText('h1', {
-    words: { wrap: 'clip' },
-    chars: true,
+
+const elementos = document.querySelectorAll('.animar');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('ativo');
+    } else {
+      entry.target.classList.remove('ativo'); // anima ao sair também
+    }
   });
-
-  createTimeline({
-    loop: true,
-    defaults: { ease: 'inOut(2)', duration: 650 }
-  })
-  .add(words, {
-    y: ['5', '0%'],
-  }, stagger(250))
-  .add(chars, {
-    y: '5%',
-  }, stagger(10, { from: 'random' }));
+}, {
+  threshold: 0.2 // ativa quando 20% do elemento aparece
 });
+
+elementos.forEach(el => observer.observe(el));

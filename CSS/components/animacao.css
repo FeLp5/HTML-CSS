@@ -1,0 +1,14 @@
+.animar {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.7s;
+  filter: blur(10px);
+}
+
+
+.animar.ativo {
+  opacity: 1;
+  transition: all 0.7s;
+  filter: blur(0);
+  transform: translateX(0);
+}
