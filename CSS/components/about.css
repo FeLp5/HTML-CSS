@@ -1,8 +1,14 @@
 #about-btn{
     cursor:pointer;
+    user-select: none;
 }
 
 #section-about{
+    display: flex;
+    flex-direction: column;
     padding-top: 5rem;
-    height: 500px;
+    margin-top: 4rem;
+    height: auto;
+    flex:1;
 }
+

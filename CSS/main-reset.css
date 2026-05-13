@@ -4,6 +4,20 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
+
+:root {
+  --cor-meu-nome: #231069;
+  --cor-secundaria: #191f6d;
+  --cor-enquadramento: #7274e750;
+  --cor-background-white-mode: #ffffff;
+  --cor-texto-white-mode: #141414;
+  --cor-texto-dark-mode: #ffffff;
+  --cor-background-dark-mode: #141414;
+  --cor-header-dark-mode: #070606;
+  --espacamento: 16px;
+  --size-section: 200px
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,7 +37,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	/* font: "inherit"; */
 	/* vertical-align: baseline; */
-
+	color: var(--cor-texto-dark-mode);
 	font-family: "Space Grotesk", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,16 +69,7 @@ q:before, q:after {
 	border-spacing: 0;
 } */
 
-:root {
-  --cor-meu-nome: #468be5;
-  --cor-secundaria: #327daf;
-  --cor-enquadramento: #7274e750;
-  --cor-background-white-mode: #ffffff;
-  --cor-texto-white-mode: #141414;
-  --cor-background-dark-mode: #141414;
-  --espacamento: 16px;
-  --size-section: 200px
-}
+
 
 button{
 	border: none;
@@ -73,7 +78,7 @@ button{
 
 
 body{
-	background-color: var(--cor-background-white-mode);
+	background-color: var(--cor-background-dark-mode);
 
 }
 
@@ -91,7 +96,7 @@ img {
 
 
 h1{
-	color: var(--cor-texto-white-mode);
+	color: var(--cor-texto-dark-mode);
 }
 
 
@@ -110,5 +115,5 @@ h1{
 }
 
 p{
-	color: var(--cor-texto-white-mode);
+	color: var(--cor-texto-dark-mode);
 }

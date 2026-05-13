@@ -1,0 +1,121 @@
+.list-time-line{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    text-align: center;
+}
+
+.list-time-line li{
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.dot{
+    display: flex;
+    margin: 0 auto 8px;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.dot:hover{
+    background-color: var(--cor-secundaria);
+    transform: scale(1.5);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.list-time-line li::after{
+    content: ' ';
+    position:absolute;
+    top: 10px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+
+    background-color: white;
+}
+
+.list-time-line li:last-child::after{
+    display: none;
+}
+
+/* @media screen and (max-width: 512px) {
+
+    .list-time-line{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        flex:1;
+        text-align: cen er; 
+        align-items: center; 
+        justify-content: center;         
+    }
+
+
+    .list-time-line::before{
+        display: none;
+    }
+
+
+    .list-time-line li{
+        display: flex;
+        flex:1;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        position: relative;
+        padding: 10px 0 10px 20px;
+    }
+
+    .list-time-line span{
+        margin-right: 50px;
+    }
+
+    .list-time-line li::before{
+        content: '';
+        position: absolute;
+
+        left: 30px;   
+        top: 35px;
+        
+        bottom: 0;
+
+        width: 2px;
+        height: 100%;
+        background: #999;
+
+        z-index: 0;
+        flex:1;
+    }
+
+    .list-time-line li::after{
+        display: none;
+    }
+
+    .list-time-line li:last-child::before{
+        display: none;
+    }
+
+
+    .dot{
+        margin: 0;
+        z-index: 2;
+    }
+} */

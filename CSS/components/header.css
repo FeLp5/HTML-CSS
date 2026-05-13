@@ -7,7 +7,7 @@
     z-index: 1000;
     justify-content: space-between;
     align-items: center;
-    background: rgba(214, 214, 214, 0.7);
+    background: var(--cor-header-dark-mode);
     backdrop-filter: blur(10px);
     color: transparent;
     padding:1rem;

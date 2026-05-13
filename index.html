@@ -12,7 +12,9 @@
         <link rel= "stylesheet" href = "CSS/components/header.css"> 
         <link rel= "stylesheet" href = "CSS/components/animacao.css"> 
         <link rel= "stylesheet" href = "CSS/components/apresentacao-section.css"> 
+        <link rel= "stylesheet" href = "CSS/components/projects.css"> 
         <link rel= "stylesheet" href = "CSS/components/about.css"> 
+        <link rel= "stylesheet" href = "CSS/components/time-line.css"> 
 
 
         <title>Felipe Alves - Dev</title>
@@ -21,18 +23,16 @@
     <body class="y mandatory-scroll-snapping" dir="ltr">
  
         <!-- Aqui é o header que contém a tag nav -->
-        <header>
-            <div class="container-header">
-                <nav class="gap-3 nav-header">
-                    <h1 class="font-sans font-bold logo text-center">Felipe Alves </h1>
-                    <div class="flex items-center gap-2">
-                        <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Projetos</a>
-                        <a class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" id="about-btn">Sobre mim</a>
-                        <a href="" class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded">Contato</a>
-                    </div>
-                </nav>
+        <header id="main-header">
 
-            </div>
+            <nav class="nav-header flex items-center justify-center">
+                <div class="flex items-center justify-center gap-2">
+                    <a class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" id="projects-btn">Projetos</a>
+                    <a class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" id="contact-btn">Contato</a>
+                    <a class="text-blue-50 bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" id="about-btn">Sobre mim</a>
+                </div>    
+            </nav>
+
 
         </header>
 
@@ -40,19 +40,46 @@
 
             <section class="flex flex-row justify-center align-center animar gap-5 flex-wrap apresentacao-section">
                 <div class="apresentacao-enquadramento">
-                   <h1 class="font-sans font-bold text-center" style="font-size: 2rem;">Felipe Alves <p><arrow><</arrow> FullStackDeveloper <arrow>/></arrow></p> </h1>
+                   <h1 class="text-center apresentacao-font" style="font-size: 2rem;">Felipe Alves <br> <p><arrow><</arrow> C|C#|.NET|BackEnd Developer <arrow>/></arrow></p> </h1>
                 </div>
     
                 <div class="flex flex-col flex-wrap flex-grow-0 text-center items-center">
                     <div class="flex justify-center apresentacao-foto" style="width: 10rem;">
-                        <img src="./imgs/icons/my-photo.png" style="border-radius: 50%;" alt="" class="max-w-full h-auto object-contain flex-shrink-0"> 
+                        <img src="./imgs/icons/photo.jpg" style="border-radius: 50%;" alt="" class="max-w-full h-auto object-contain flex-shrink-0"> 
                     </div>
-                    <p class="text-5x1 font-sans apresentacao-resumo">FullStack Developer <br> C|C#|.NET|Developer<br>Tecnólogo em Eletrônica Automotiva.</p>
+                    <p class="text-5x1 font-sans apresentacao-resumo">BackEnd Developer <br> Tecnólogo em Eletrônica Automotiva.</p>
                 </div>
             </section>
+               
     
-    
-    
+            <section class=" page text-center m-20 animar" id="section-projects">
+                <h1 class="text-5xl">Projetos</h1>
+                <div class="">
+                    <div class="container card">
+                        <p class="font-sans">Desenvolvedor Backend com experiência em sistemas embarcados em C e desenvolvimento de
+                            aplicações web com ASP.NET Core. Atuação em integração com APIs REST, desenvolvimento
+                            de plataforma interna para aumento de produtividade e redução de tempo gasto no
+                            desenvolvimento de sistemas. <br></p>
+
+                    </div>
+                    <div class="container card">
+                        <p class="font-sans">Desenvolvedor Backend com experiência em sistemas embarcados em C e desenvolvimento de
+                            aplicações web com ASP.NET Core. Atuação em integração com APIs REST, desenvolvimento
+                            de plataforma interna para aumento de produtividade e redução de tempo gasto no
+                            desenvolvimento de sistemas. <br></p>
+
+                    </div>
+                    <div class="container card">
+                        <p class="font-sans">Desenvolvedor Backend com experiência em sistemas embarcados em C e desenvolvimento de
+                            aplicações web com ASP.NET Core. Atuação em integração com APIs REST, desenvolvimento
+                            de plataforma interna para aumento de produtividade e redução de tempo gasto no
+                            desenvolvimento de sistemas. <br></p>
+
+                    </div>
+                </div>
+
+
+            </section>    
          
             <section class=" page text-center m-20 animar" id="section-about">
                 <h1 class="m-10 p-5 text-5xl">Sobre mim</h1>
@@ -63,7 +90,22 @@
                         desenvolvimento de sistemas. <br></p>
                 </div>
                 
-                <h2 class="m-10 p-5" style="font-size:2rem">Minha trajetoria</h2>
+                <div>
+                    <h2 class="m-10 p-5" style="font-size:2rem">Minha trajetoria</h2>
+                    <ul class="list-time-line">
+                        <li>
+                            <span class="dot">1</span>
+                            Fatec Santo André <br> Tecnólogo em Eletrônica Automotiva<br> Concluído em agosto de 2022.</li>
+                        <li>
+                            <span class="dot">2</span>
+                            Cursos Complementares</li>
+                        <li>
+                            <span class="dot">3</span>
+                            Alfatest</li>
+
+                    </ul>
+                </div>
+
 
 
             </section>
@@ -75,7 +117,6 @@
         <footer class="main-rodape">
             <div class="container-contact flex flex-row gap-5 justify-center items-center mt-20">
                 <a class="main-btn-linkedin bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded" href="https://www.linkedin.com/in/felp5/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                <a class="main-btn-linkedin bg-gray-500 hover:bg-gray-600 px-2 py-1 rounded"href="https://www.linkedin.com/in/felipe-alves-leite-da-silva-332b31218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </footer>
 
@@ -84,6 +125,7 @@
         <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
         <script src="JS/main-script.js"></script>
         <script src="JS/components/about.js"></script>
+        <script src="JS/components/projects.js"></script>
                 
     </body>
 </html>
